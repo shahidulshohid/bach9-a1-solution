@@ -1,6 +1,53 @@
 /* fonts styles */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-body{
-    font-family: "Merriweather", serif;
+body {
+  font-family: "Merriweather", serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* banner section styles start here */
+.banner-container {
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  background-image: url(../images/Banner\ Image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.banner-container p {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.banner-container h1 {
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* 65% section styles starts from here */
+.second-section-continer {
+  width: 802.9px;
+  height: 806px;
+  margin: 0 auto;
+  border: 1px solid red;
+  margin-top: 90px;
 }
