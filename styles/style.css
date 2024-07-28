@@ -225,11 +225,75 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
-.item{
+.item {
   width: 424px;
   height: 450px;
 }
 .item img {
   width: 100%;
   height: 100%;
+}
+/* footer section styles from here */
+.footer-container {
+  width: 1320px;
+  height:500px;
+  margin: 0 auto;
+  background-color: rgb(7, 2, 17);
+  margin-bottom: 100px;
+}
+.footer-first-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.footer-first-section p {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+}
+.common-part {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common-part i {
+  width: 7px;
+  height: 7px;
+}
+.common-part span {
+font-size: 24px;
+font-weight: 500;
+margin-top: 5px;
+margin-left: 20px;
+}
+.hr-first {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-icons {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer-end-text {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.footer-end-text {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
 }
