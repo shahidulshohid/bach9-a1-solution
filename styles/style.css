@@ -81,3 +81,118 @@ body {
   width: 802.9px;
   height: 500px;
 }
+
+/* midnight party styles from here */
+.midnight-party-container {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  background-image: url(../images/Vectorrr.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+.leftside-content {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 80px;
+}
+.leftside-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 900;
+}
+.leftside-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 0;
+}
+.midnight-button {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+}
+.rightside-content {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* holiday styles from here */
+.holiday-section-container {
+  width: 1320px;
+  height: 986.07px;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+.holiday-text-container {
+  width: 1068px;
+  height: 260px;
+  text-align: center;
+  margin: 0 auto;
+}
+.holiday-text-container h5 {
+  color: rgb(7, 2, 17);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.holiday-text-container h1 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+.holiday-text-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+}
+#holiday {
+  color: rgb(255, 0, 0);
+}
+.solid-color {
+  width: 1320px;
+  height: 229px;
+  background-color: red;
+  top: 77%;
+  position: absolute;
+}
+.giftbox {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.discount-container {
+  width: 206.84px;
+  height: 206.84px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-40deg);
+}
+.discount-container span{
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 600;
+}
+.discount-container small{
+  color: rgb(255, 255, 255);
+  font-size: 24.34px;
+  font-weight: 900;
+}
